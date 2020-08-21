@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2020/07/26 13:54:11.000.962,=E:\RadStuioProjects\Unit1.cpp</Transaction>
+    <Transaction>2020/07/26 13:54:16.000.033,=E:\RadStuioProjects\Project1PCH1.h</Transaction>
+    <Transaction>2020/07/26 13:56:10.000.999,E:\RadStuioProjects\CppBuilderAnimation\MainForm.cpp=E:\RadStuioProjects\Unit1.cpp</Transaction>
+    <Transaction>2020/07/26 13:56:10.000.999,E:\RadStuioProjects\CppBuilderAnimation\MainForm.h=E:\RadStuioProjects\Unit1.h</Transaction>
+    <Transaction>2020/07/26 13:56:10.000.999,E:\RadStuioProjects\CppBuilderAnimation\MainForm.fmx=E:\RadStuioProjects\Unit1.fmx</Transaction>
+    <Transaction>2020/07/26 13:56:16.000.496,E:\RadStuioProjects\CppBuilderAnimation\Project1PCH1.h=E:\RadStuioProjects\Project1PCH1.h</Transaction>
+    <Transaction>2020/07/26 13:56:24.000.859,E:\RadStuioProjects\CppBuilderAnimation\CppBuilderAnimationPCH1.h=E:\RadStuioProjects\CppBuilderAnimation\Project1PCH1.h</Transaction>
+    <Transaction>2020/07/26 13:56:25.000.085,E:\RadStuioProjects\CppBuilderAnimation\CppBuilderAnimation.cbproj=E:\RadStuioProjects\Project1.cbproj</Transaction>
+    <Transaction>2020/07/26 17:58:11.000.877,=E:\RadStuioProjects\CppBuilderAnimation\Unit2.cpp</Transaction>
+    <Transaction>2020/07/26 17:58:32.000.621,E:\RadStuioProjects\CppBuilderAnimation\Unit2.cpp=E:\RadStuioProjects\CppBuilderAnimation\AnimationMenu.cpp</Transaction>
+    <Transaction>2020/07/26 17:58:32.000.621,E:\RadStuioProjects\CppBuilderAnimation\Unit2.h=E:\RadStuioProjects\CppBuilderAnimation\AnimationMenu.h</Transaction>
+    <Transaction>2020/07/26 17:58:32.000.621,E:\RadStuioProjects\CppBuilderAnimation\Unit2.fmx=E:\RadStuioProjects\CppBuilderAnimation\AnimationMenu.fmx</Transaction>
+    <Transaction>2020/07/26 18:51:48.000.763,E:\RadStuioProjects\CppBuilderAnimation\AnimationMenu.cpp=</Transaction>
+    <Transaction>2020/07/26 18:53:30.000.959,E:\RadStuioProjects\CppBuilderAnimation\CppBuilderAnimationPCH1.h=E:\RadStuioProjects\CppBuilderAnimation\CppBuilderFmxUIDemosPCH1.h</Transaction>
+    <Transaction>2020/07/26 18:53:30.000.985,E:\RadStuioProjects\CppBuilderAnimation\CppBuilderAnimation.cbproj=E:\RadStuioProjects\CppBuilderAnimation\CppBuilderFmxUIDemos.cbproj</Transaction>
+    <Transaction>2020/07/26 19:05:52.000.374,=E:\RadStuioProjects\CppBuilderAnimation\Unit1.cpp</Transaction>
+    <Transaction>2020/07/26 19:06:00.000.153,E:\RadStuioProjects\CppBuilderAnimation\Unit1.h=E:\RadStuioProjects\CppBuilderAnimation\TBitmapListAnimation.h</Transaction>
+    <Transaction>2020/07/26 19:06:00.000.153,E:\RadStuioProjects\CppBuilderAnimation\Unit1.cpp=E:\RadStuioProjects\CppBuilderAnimation\TBitmapListAnimation.cpp</Transaction>
+    <Transaction>2020/07/26 19:06:00.000.153,E:\RadStuioProjects\CppBuilderAnimation\Unit1.fmx=E:\RadStuioProjects\CppBuilderAnimation\TBitmapListAnimation.fmx</Transaction>
+    <Transaction>2020/07/26 19:35:28.000.065,E:\RadStuioProjects\CppBuilderAnimation\TBitmapListAnimation.fmx=E:\RadStuioProjects\CppBuilderAnimation\MessageManager.fmx</Transaction>
+    <Transaction>2020/07/26 19:35:28.000.065,E:\RadStuioProjects\CppBuilderAnimation\TBitmapListAnimation.h=E:\RadStuioProjects\CppBuilderAnimation\MessageManager.h</Transaction>
+    <Transaction>2020/07/26 19:35:28.000.065,E:\RadStuioProjects\CppBuilderAnimation\TBitmapListAnimation.cpp=E:\RadStuioProjects\CppBuilderAnimation\MessageManager.cpp</Transaction>
+    <Transaction>2020/07/26 19:57:57.000.983,=E:\RadStuioProjects\CppBuilderAnimation\Unit2.cpp</Transaction>
+    <Transaction>2020/07/26 19:58:20.000.006,E:\RadStuioProjects\CppBuilderAnimation\Unit2.fmx=E:\RadStuioProjects\CppBuilderAnimation\MessageSubscriber.fmx</Transaction>
+    <Transaction>2020/07/26 19:58:20.000.006,E:\RadStuioProjects\CppBuilderAnimation\Unit2.cpp=E:\RadStuioProjects\CppBuilderAnimation\MessageSubscriber.cpp</Transaction>
+    <Transaction>2020/07/26 19:58:20.000.006,E:\RadStuioProjects\CppBuilderAnimation\Unit2.h=E:\RadStuioProjects\CppBuilderAnimation\MessageSubscriber.h</Transaction>
+    <Transaction>2020/07/26 20:28:22.000.138,E:\RadStuioProjects\CppBuilderAnimation\CppBuilderFmxUIDemosPCH1.h=E:\RadStuioProjects\CppBuilderAnimation\CppBuilderFmxDemosPCH1.h</Transaction>
+    <Transaction>2020/07/26 20:28:22.000.164,E:\RadStuioProjects\CppBuilderAnimation\CppBuilderFmxUIDemos.cbproj=E:\RadStuioProjects\CppBuilderAnimation\CppBuilderFmxDemos.cbproj</Transaction>
+    <Transaction>2020/08/06 09:51:17.000.896,=E:\RadStuioProjects\CppBuilderAnimation\Unit3.cpp</Transaction>
+    <Transaction>2020/08/06 09:51:55.000.781,E:\RadStuioProjects\CppBuilderAnimation\ByteInteger.h=E:\RadStuioProjects\CppBuilderAnimation\Unit3.h</Transaction>
+    <Transaction>2020/08/06 09:51:55.000.781,E:\RadStuioProjects\CppBuilderAnimation\ByteInteger.fmx=E:\RadStuioProjects\CppBuilderAnimation\Unit3.fmx</Transaction>
+    <Transaction>2020/08/06 09:51:55.000.781,E:\RadStuioProjects\CppBuilderAnimation\ByteInteger.cpp=E:\RadStuioProjects\CppBuilderAnimation\Unit3.cpp</Transaction>
+    <Transaction>2020/08/10 09:36:53.000.614,=E:\RadStuioProjects\CppBuilderAnimation\Unit4.cpp</Transaction>
+    <Transaction>2020/08/10 09:37:14.000.493,E:\RadStuioProjects\CppBuilderAnimation\SignaturCapture.fmx=E:\RadStuioProjects\CppBuilderAnimation\Unit4.fmx</Transaction>
+    <Transaction>2020/08/10 09:37:14.000.493,E:\RadStuioProjects\CppBuilderAnimation\SignaturCapture.h=E:\RadStuioProjects\CppBuilderAnimation\Unit4.h</Transaction>
+    <Transaction>2020/08/10 09:37:14.000.493,E:\RadStuioProjects\CppBuilderAnimation\SignaturCapture.cpp=E:\RadStuioProjects\CppBuilderAnimation\Unit4.cpp</Transaction>
+  </Transactions>
+</BorlandProject>
