@@ -1,8 +1,8 @@
-//---------------------------------------------------------------------------
+// ---------------------------------------------------------------------------
 
 #ifndef THeaderItemH
 #define THeaderItemH
-//---------------------------------------------------------------------------
+// ---------------------------------------------------------------------------
 #include <System.Classes.hpp>
 #include <FMX.Controls.hpp>
 #include <FMX.Forms.hpp>
@@ -45,10 +45,10 @@
 #include <FireDAC.Stan.Param.hpp>
 #include <FireDAC.Stan.Pool.hpp>
 #include <FireDAC.UI.Intf.hpp>
-//---------------------------------------------------------------------------
-class TForm5 : public TForm
-{
-__published:	// IDE-managed Components
+
+// ---------------------------------------------------------------------------
+class TForm5 : public TForm {
+__published: // IDE-managed Components
 	TStringGrid *StringGrid1;
 	TFDConnection *Byou93Connection;
 	TFDQuery *NanjingTable;
@@ -56,13 +56,16 @@ __published:	// IDE-managed Components
 	TBindingsList *BindingsList1;
 	TLinkGridToDataSource *LinkGridToDataSourceBindSourceDB1;
 	TStyleBook *StyleBook1;
-    void __fastcall StringGrid1ApplyStyleLookup(TObject *Sender);
+
+	void __fastcall StringGrid1ApplyStyleLookup(TObject *Sender);
 	void __fastcall FormCreate(TObject *Sender);
-private:	// User declarations
-public:		// User declarations
+
+private: // User declarations
+public: // User declarations
 	__fastcall TForm5(TComponent* Owner);
 };
-//---------------------------------------------------------------------------
+
+// ---------------------------------------------------------------------------
 extern PACKAGE TForm5 *Form5;
-//---------------------------------------------------------------------------
+// ---------------------------------------------------------------------------
 #endif
