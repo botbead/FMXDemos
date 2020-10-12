@@ -39,12 +39,12 @@ void __fastcall TForm5::StringGrid1ApplyStyleLookup(TObject *Sender) {
 			 Other            HorzAlign, VertAlign, Trimming, and WordWrap.     How to align and show the text.
 			 */
 			i = h->Items[a];
-            // clear default style
+			// clear default style
 			i->StyledSettings = i->StyledSettings >> TStyledSetting::FontColor;
 			i->StyledSettings = i->StyledSettings >> TStyledSetting::Size;
 			i->StyledSettings = i->StyledSettings >> TStyledSetting::Family;
 			// or clear default style
-            i->StyledSettings.Clear();
+			i->StyledSettings.Clear();
 			i->TextSettings->HorzAlign = TTextAlign::Center;
 			i->TextSettings->Font->Family = L"Consolas";
 			i->TextSettings->Font->Size = 16;
