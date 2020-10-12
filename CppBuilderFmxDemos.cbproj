@@ -84,7 +84,7 @@
         <AUP_READ_PHONE_STATE>true</AUP_READ_PHONE_STATE>
         <Icon_MainIcon>$(BDS)\bin\cbuilder_PROJECTICON.ico</Icon_MainIcon>
         <Icns_MainIcns>$(BDS)\bin\cbuilder_PROJECTICNS.icns</Icns_MainIcns>
-        <AllPackageLibs>rtl.lib;fmx.lib</AllPackageLibs>
+        <AllPackageLibs>rtl.lib;fmx.lib;dbrtl.lib;unidac260.lib;dac260.lib;bindcomp.lib;bindengine.lib;bindcompfmx.lib;FireDAC.lib;FireDACSqliteDriver.lib;FireDACCommonDriver.lib;FireDACCommon.lib;xmlrtl.lib;fmxFireDAC.lib</AllPackageLibs>
         <_TCHARMapping>wchar_t</_TCHARMapping>
         <Multithreaded>true</Multithreaded>
         <SanitizedProjectName>CppBuilderFmxDemos</SanitizedProjectName>
@@ -162,7 +162,7 @@
         <AppEnableRuntimeThemes>true</AppEnableRuntimeThemes>
         <AppDPIAwarenessMode>PerMonitorV2</AppDPIAwarenessMode>
         <VerInfo_IncludeVerInfo>true</VerInfo_IncludeVerInfo>
-        <LinkPackageImports>rtl.bpi;fmx.bpi</LinkPackageImports>
+        <LinkPackageImports>rtl.bpi;fmx.bpi;dbrtl.bpi;unidac260.bpi;dac260.bpi;bindcomp.bpi;bindengine.bpi;bindcompfmx.bpi;FireDAC.bpi;FireDACSqliteDriver.bpi;FireDACCommonDriver.bpi;FireDACCommon.bpi;xmlrtl.bpi;fmxFireDAC.bpi</LinkPackageImports>
         <VerInfo_Locale>1033</VerInfo_Locale>
     </PropertyGroup>
     <PropertyGroup Condition="'$(Cfg_1_Win64)'!=''">
@@ -223,11 +223,18 @@
             <DependentOn>SignaturCapture.h</DependentOn>
             <BuildOrder>6</BuildOrder>
         </CppCompile>
-        <FormResources Include="MainForm.fmx"/>
+        <CppCompile Include="THeaderItem.cpp">
+            <Form>Form5</Form>
+            <FormType>fmx</FormType>
+            <DependentOn>THeaderItem.h</DependentOn>
+            <BuildOrder>7</BuildOrder>
+        </CppCompile>
         <FormResources Include="MessageManager.fmx"/>
         <FormResources Include="MessageSubscriber.fmx"/>
-        <FormResources Include="ByteInteger.fmx"/>
         <FormResources Include="SignaturCapture.fmx"/>
+        <FormResources Include="THeaderItem.fmx"/>
+        <FormResources Include="ByteInteger.fmx"/>
+        <FormResources Include="MainForm.fmx"/>
         <BuildConfiguration Include="Release">
             <Key>Cfg_2</Key>
             <CfgParent>Base</CfgParent>

@@ -37,8 +37,18 @@ object FormMain: TFormMain
     Size.Width = 113.000000000000000000
     Size.Height = 33.000000000000000000
     Size.PlatformDefault = False
-    TabOrder = 2
+    TabOrder = 3
     Text = #31614#21517#25429#25417' Demo'
     OnClick = Button3Click
+  end
+  object Button4: TButton
+    Position.X = 496.000000000000000000
+    Position.Y = 16.000000000000000000
+    Size.Width = 113.000000000000000000
+    Size.Height = 33.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 2
+    Text = 'THeaderItem'
+    OnClick = Button4Click
   end
 end

@@ -20,10 +20,10 @@ void __fastcall TForm3::Switch1Switch(TObject *Sender) {
 	// typedef System::Set<System::Int8, 0, 31> TIntegerSet;
 	if (sw->IsChecked)
 		// add an element to the set
-		s.operator << (sw->Tag);
+			s.operator << (sw->Tag);
 	else
-        // remove an element from the set
-		s.operator >> (sw->Tag);
+		// remove an element from the set
+			s.operator >> (sw->Tag);
 	for (int i = 0; i < Layout3->ChildrenCount; ++i) {
 		fmxObj = Layout3->Children->operator[](i);
 		// testing for an element in the set
@@ -40,7 +40,7 @@ void __fastcall TForm3::Switch1Switch(TObject *Sender) {
 // ---------------------------------------------------------------------------
 void __fastcall TForm3::Button3Click(TObject *Sender) {
 	TFmxObject *fmxObj = 0;
-    // clear the set
+	// clear the set
 	s.Clear();
 	for (int i = 0; i < Layout1->ChildrenCount; ++i) {
 		fmxObj = Layout1->Children->operator[](i);
