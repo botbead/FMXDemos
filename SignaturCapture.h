@@ -30,12 +30,13 @@ __published: // IDE-managed Components
 	void __fastcall Button2Click(TObject *Sender);
 	void __fastcall Button1Click(TObject *Sender);
 	void __fastcall FormCreate(TObject *Sender);
-	void __fastcall RoundRect1MouseUp(TObject *Sender, TMouseButton Button, TShiftState Shift,
-          float X, float Y);
+	void __fastcall RoundRect1MouseUp(TObject *Sender, TMouseButton Button,
+		TShiftState Shift, float X, float Y);
 
 private: // User declarations
 public: // User declarations
 	__fastcall TForm4(TComponent* Owner);
+
 	bool beMouseDown;
 };
 

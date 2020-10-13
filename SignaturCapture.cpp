@@ -18,7 +18,7 @@ void __fastcall TForm4::RoundRect1MouseDown(TObject *Sender,
 	TMouseButton Button, TShiftState Shift, float X, float Y) {
 	beMouseDown = true;
 	TPointF pt(X, Y);
-    // Shift is a set
+	// Shift is a set
 	// if (Shift.Contains(ssShift)) {
 	if (beMouseDown)
 		Path1->Data->MoveTo(pt);

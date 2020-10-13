@@ -1,8 +1,8 @@
-//---------------------------------------------------------------------------
+// ---------------------------------------------------------------------------
 
 #ifndef ByteIntegerH
 #define ByteIntegerH
-//---------------------------------------------------------------------------
+// ---------------------------------------------------------------------------
 #include <System.Classes.hpp>
 #include <FMX.Controls.hpp>
 #include <FMX.Forms.hpp>
@@ -10,10 +10,10 @@
 #include <FMX.Types.hpp>
 #include <FMX.Controls.Presentation.hpp>
 #include <FMX.StdCtrls.hpp>
-//---------------------------------------------------------------------------
-class TForm3 : public TForm
-{
-__published:	// IDE-managed Components
+
+// ---------------------------------------------------------------------------
+class TForm3 : public TForm {
+__published: // IDE-managed Components
 	TLayout *Layout1;
 	TSwitch *Switch1;
 	TSwitch *Switch2;
@@ -37,17 +37,21 @@ __published:	// IDE-managed Components
 	TLabel *Label7;
 	TLabel *Label8;
 	TLabel *Label9;
+
 	void __fastcall Switch1Switch(TObject *Sender);
 	void __fastcall Button3Click(TObject *Sender);
 	void __fastcall Button2Click(TObject *Sender);
 	void __fastcall FormCreate(TObject *Sender);
 	void __fastcall Button1Click(TObject *Sender);
-private:	// User declarations
-public:		// User declarations
+
+private: // User declarations
+public: // User declarations
 	__fastcall TForm3(TComponent* Owner);
-    TIntegerSet s;
+
+	TIntegerSet s;
 };
-//---------------------------------------------------------------------------
+
+// ---------------------------------------------------------------------------
 extern PACKAGE TForm3 *Form3;
-//---------------------------------------------------------------------------
+// ---------------------------------------------------------------------------
 #endif

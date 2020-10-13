@@ -30,8 +30,7 @@ public: // User declarations
 
 	int subscriber_id;
 
-	void __fastcall msg_react(TObject * const sender,
-		TMessageBase * const msg);
+	void __fastcall msg_react(TObject * const sender, TMessageBase * const msg);
 };
 
 // ---------------------------------------------------------------------------

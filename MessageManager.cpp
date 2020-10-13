@@ -2,7 +2,7 @@
 /*
  https://github.com/botbead
  2020-07-26
-*/
+ */
 
 #include <fmx.h>
 #pragma hdrstop
