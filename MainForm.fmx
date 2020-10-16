@@ -37,7 +37,7 @@ object FormMain: TFormMain
     Size.Width = 113.000000000000000000
     Size.Height = 33.000000000000000000
     Size.PlatformDefault = False
-    TabOrder = 4
+    TabOrder = 5
     Text = #31614#21517#25429#25417' Demo'
     OnClick = Button3Click
   end
@@ -47,7 +47,7 @@ object FormMain: TFormMain
     Size.Width = 113.000000000000000000
     Size.Height = 33.000000000000000000
     Size.PlatformDefault = False
-    TabOrder = 3
+    TabOrder = 4
     Text = 'THeaderItem'
     OnClick = Button4Click
   end
@@ -57,8 +57,18 @@ object FormMain: TFormMain
     Size.Width = 113.000000000000000000
     Size.Height = 33.000000000000000000
     Size.PlatformDefault = False
-    TabOrder = 2
+    TabOrder = 3
     Text = 'MobileApp1'
     OnClick = Button5Click
+  end
+  object Button6: TButton
+    Position.X = 24.000000000000000000
+    Position.Y = 72.000000000000000000
+    Size.Width = 153.000000000000000000
+    Size.Height = 33.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 2
+    Text = 'Header/Footer'
+    OnClick = Button6Click
   end
 end

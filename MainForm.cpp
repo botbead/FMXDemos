@@ -8,6 +8,7 @@
 #include "SignaturCapture.h"
 #include "THeaderItem.h"
 #include "MobileAPP1.h"
+#include "HeaderAndFooter.h"
 // ---------------------------------------------------------------------------
 #pragma package(smart_init)
 #pragma resource "*.fmx"
@@ -40,5 +41,10 @@ void __fastcall TFormMain::Button4Click(TObject *Sender) {
 // ---------------------------------------------------------------------------
 void __fastcall TFormMain::Button5Click(TObject *Sender) {
 	Form6->ShowModal();
+}
+
+// ---------------------------------------------------------------------------
+void __fastcall TFormMain::Button6Click(TObject *Sender) {
+	Form7->ShowModal();
 }
 // ---------------------------------------------------------------------------

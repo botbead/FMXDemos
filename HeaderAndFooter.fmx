@@ -1,0 +1,57 @@
+object Form7: TForm7
+  Left = 0
+  Top = 0
+  Caption = 'Form7'
+  ClientHeight = 545
+  ClientWidth = 364
+  Position = MainFormCenter
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  DesignerMasterStyle = 0
+  object ToolBar1: TToolBar
+    Size.Width = 364.000000000000000000
+    Size.Height = 40.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    object Label1: TLabel
+      Align = Client
+      StyledSettings = [Style, FontColor]
+      Size.Width = 364.000000000000000000
+      Size.Height = 40.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Family = 'Arial'
+      TextSettings.Font.Size = 20.000000000000000000
+      TextSettings.HorzAlign = Center
+      Text = 'Header'
+      TabOrder = 0
+    end
+  end
+  object ToolBar2: TToolBar
+    Align = Bottom
+    Position.Y = 505.000000000000000000
+    Size.Width = 364.000000000000000000
+    Size.Height = 40.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    object Button1: TButton
+      Align = Left
+      Margins.Left = 10.000000000000000000
+      Position.X = 10.000000000000000000
+      Size.Width = 80.000000000000000000
+      Size.Height = 40.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'backtoolbutton'
+      TabOrder = 0
+      Text = 'Back'
+      OnClick = Button1Click
+    end
+  end
+  object WebBrowser1: TWebBrowser
+    Align = Client
+    Size.Width = 364.000000000000000000
+    Size.Height = 465.000000000000000000
+    Size.PlatformDefault = False
+  end
+end
