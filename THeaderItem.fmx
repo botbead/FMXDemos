@@ -19,44 +19,10 @@ object Form5: TForm5
     Size.Height = 480.000000000000000000
     Size.PlatformDefault = False
     TabOrder = 2
-    RowCount = 452
+    RowCount = 300
     OnApplyStyleLookup = StringGrid1ApplyStyleLookup
-    Viewport.Width = 622.000000000000000000
-    Viewport.Height = 441.000000000000000000
-  end
-  object Byou93Connection: TFDConnection
-    Params.Strings = (
-      'ConnectionDef=BYOU93')
-    Connected = True
-    LoginPrompt = False
-    Left = 333
-    Top = 195
-  end
-  object NanjingTable: TFDQuery
-    Active = True
-    Connection = Byou93Connection
-    SQL.Strings = (
-      'SELECT * FROM nanjing')
-    Left = 333
-    Top = 243
-  end
-  object BindSourceDB1: TBindSourceDB
-    DataSet = NanjingTable
-    ScopeMappings = <>
-    Left = 312
-    Top = 344
-  end
-  object BindingsList1: TBindingsList
-    Methods = <>
-    OutputConverters = <>
-    Left = 20
-    Top = 5
-    object LinkGridToDataSourceBindSourceDB1: TLinkGridToDataSource
-      Category = 'Quick Bindings'
-      DataSource = BindSourceDB1
-      GridControl = StringGrid1
-      Columns = <>
-    end
+    Viewport.Width = 640.000000000000000000
+    Viewport.Height = 480.000000000000000000
   end
   object StyleBook1: TStyleBook
     Styles = <
@@ -3973,5 +3939,39 @@ object Form5: TForm5
       end>
     Left = 424
     Top = 408
+  end
+  object Byou93Connection: TFDConnection
+    Params.Strings = (
+      'ConnectionDef=BYOU93')
+    Connected = True
+    LoginPrompt = False
+    Left = 333
+    Top = 195
+  end
+  object NanjingTable: TFDQuery
+    Active = True
+    Connection = Byou93Connection
+    SQL.Strings = (
+      'SELECT * FROM nanjing')
+    Left = 333
+    Top = 243
+  end
+  object BindSourceDB1: TBindSourceDB
+    DataSet = NanjingTable
+    ScopeMappings = <>
+    Left = 312
+    Top = 344
+  end
+  object BindingsList1: TBindingsList
+    Methods = <>
+    OutputConverters = <>
+    Left = 20
+    Top = 5
+    object LinkGridToDataSourceBindSourceDB1: TLinkGridToDataSource
+      Category = 'Quick Bindings'
+      DataSource = BindSourceDB1
+      GridControl = StringGrid1
+      Columns = <>
+    end
   end
 end

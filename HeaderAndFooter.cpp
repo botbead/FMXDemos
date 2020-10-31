@@ -39,16 +39,15 @@ void __fastcall TForm7::SetPermissions() {
 
 void __fastcall TForm7::FormCreate(TObject *Sender) {
 	SetPermissions();
-	WebBrowser1->URL = L"https://www.digislug.com";
-    WebBrowser1->Navigate();
+	WebBrowser1->URL = L"https://www.bing.com";
+	WebBrowser1->Navigate();
 }
+
 // ---------------------------------------------------------------------------
-void __fastcall TForm7::Button1Click(TObject *Sender)
-{
-	if(WebBrowser1->CanGoBack)
+void __fastcall TForm7::Button1Click(TObject *Sender) {
+	if (WebBrowser1->CanGoBack)
 		WebBrowser1->GoBack();
 	else
 		WebBrowser1->Navigate();
 }
-//---------------------------------------------------------------------------
-
+// ---------------------------------------------------------------------------

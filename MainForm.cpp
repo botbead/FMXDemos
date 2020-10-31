@@ -9,6 +9,7 @@
 #include "THeaderItem.h"
 #include "MobileAPP1.h"
 #include "HeaderAndFooter.h"
+#include "CheckBoxStyle.h"
 // ---------------------------------------------------------------------------
 #pragma package(smart_init)
 #pragma resource "*.fmx"
@@ -46,5 +47,10 @@ void __fastcall TFormMain::Button5Click(TObject *Sender) {
 // ---------------------------------------------------------------------------
 void __fastcall TFormMain::Button6Click(TObject *Sender) {
 	Form7->ShowModal();
+}
+
+// ---------------------------------------------------------------------------
+void __fastcall TFormMain::Button7Click(TObject *Sender) {
+	Form8->ShowModal();
 }
 // ---------------------------------------------------------------------------

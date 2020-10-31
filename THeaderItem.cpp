@@ -43,7 +43,7 @@ void __fastcall TForm5::StringGrid1ApplyStyleLookup(TObject *Sender) {
 			i->StyledSettings = i->StyledSettings >> TStyledSetting::FontColor;
 			i->StyledSettings = i->StyledSettings >> TStyledSetting::Size;
 			i->StyledSettings = i->StyledSettings >> TStyledSetting::Family;
-			// or clear default style
+			// or clear all default style
 			i->StyledSettings.Clear();
 			i->TextSettings->HorzAlign = TTextAlign::Center;
 			i->TextSettings->Font->Family = L"Consolas";

@@ -1,7 +1,7 @@
 // ---------------------------------------------------------------------------
 
-#ifndef HeaderAndFooterH
-#define HeaderAndFooterH
+#ifndef CheckBoxStyleH
+#define CheckBoxStyleH
 // ---------------------------------------------------------------------------
 #include <System.Classes.hpp>
 #include <FMX.Controls.hpp>
@@ -9,27 +9,33 @@
 #include <FMX.Controls.Presentation.hpp>
 #include <FMX.StdCtrls.hpp>
 #include <FMX.Types.hpp>
-#include <FMX.WebBrowser.hpp>
 
 // ---------------------------------------------------------------------------
-class TForm7 : public TForm {
+class TForm8 : public TForm {
 __published: // IDE-managed Components
-	TToolBar *ToolBar1;
-	TToolBar *ToolBar2;
-	TLabel *Label1;
+	TCheckBox *CheckBox1;
+	TCheckBox *CheckBox2;
+	TCheckBox *CheckBox3;
+	TCheckBox *CheckBox4;
+	TCheckBox *CheckBox5;
+	TCheckBox *CheckBox6;
+	TCheckBox *CheckBox7;
+	TCheckBox *CheckBox8;
+	TCheckBox *CheckBox9;
+	TCheckBox *CheckBox10;
 	TButton *Button1;
-	TWebBrowser *WebBrowser1;
+	TButton *Button2;
+	TButton *Button3;
 
-	void __fastcall FormCreate(TObject *Sender);
 	void __fastcall Button1Click(TObject *Sender);
+	void __fastcall Button3Click(TObject *Sender);
 
 private: // User declarations
 public: // User declarations
-	__fastcall TForm7(TComponent* Owner);
-	void __fastcall SetPermissions();
+	__fastcall TForm8(TComponent* Owner);
 };
 
 // ---------------------------------------------------------------------------
-extern PACKAGE TForm7 *Form7;
+extern PACKAGE TForm8 *Form8;
 // ---------------------------------------------------------------------------
 #endif
