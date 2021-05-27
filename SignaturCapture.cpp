@@ -14,8 +14,8 @@ __fastcall TForm4::TForm4(TComponent* Owner) : TForm(Owner) {
 }
 
 // ---------------------------------------------------------------------------
-void __fastcall TForm4::RoundRect1MouseDown(TObject *Sender,
-	TMouseButton Button, TShiftState Shift, float X, float Y) {
+void __fastcall TForm4::RoundRect1MouseDown(TObject *Sender, TMouseButton Button, TShiftState Shift,
+	float X, float Y) {
 	beMouseDown = true;
 	TPointF pt(X, Y);
 	// Shift is a set
@@ -27,8 +27,7 @@ void __fastcall TForm4::RoundRect1MouseDown(TObject *Sender,
 }
 
 // ---------------------------------------------------------------------------
-void __fastcall TForm4::RoundRect1MouseMove(TObject *Sender, TShiftState Shift,
-	float X, float Y) {
+void __fastcall TForm4::RoundRect1MouseMove(TObject *Sender, TShiftState Shift, float X, float Y) {
 	TPointF pt(X, Y);
 	// if (Shift.Contains(ssShift)) {
 	if (beMouseDown) {
@@ -63,8 +62,8 @@ void __fastcall TForm4::FormCreate(TObject *Sender) {
 }
 
 // ---------------------------------------------------------------------------
-void __fastcall TForm4::RoundRect1MouseUp(TObject *Sender, TMouseButton Button,
-	TShiftState Shift, float X, float Y) {
+void __fastcall TForm4::RoundRect1MouseUp(TObject *Sender, TMouseButton Button, TShiftState Shift,
+	float X, float Y) {
 	beMouseDown = false;
 }
 // ---------------------------------------------------------------------------

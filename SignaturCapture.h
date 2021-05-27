@@ -23,15 +23,14 @@ __published: // IDE-managed Components
 	TPath *Path1;
 	TRectangle *Rectangle1;
 
-	void __fastcall RoundRect1MouseDown(TObject *Sender, TMouseButton Button,
-		TShiftState Shift, float X, float Y);
-	void __fastcall RoundRect1MouseMove(TObject *Sender, TShiftState Shift,
+	void __fastcall RoundRect1MouseDown(TObject *Sender, TMouseButton Button, TShiftState Shift,
 		float X, float Y);
+	void __fastcall RoundRect1MouseMove(TObject *Sender, TShiftState Shift, float X, float Y);
 	void __fastcall Button2Click(TObject *Sender);
 	void __fastcall Button1Click(TObject *Sender);
 	void __fastcall FormCreate(TObject *Sender);
-	void __fastcall RoundRect1MouseUp(TObject *Sender, TMouseButton Button,
-		TShiftState Shift, float X, float Y);
+	void __fastcall RoundRect1MouseUp(TObject *Sender, TMouseButton Button, TShiftState Shift,
+		float X, float Y);
 
 private: // User declarations
 public: // User declarations

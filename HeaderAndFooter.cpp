@@ -26,8 +26,7 @@ void __fastcall TForm7::SetPermissions() {
 	__try {
 		TRegistry *reg1 = dynamic_cast<TRegistry*>(Reg);
 		if (Reg->OpenKey(cFeatureBrowserEmulation,
-			true) && !(reg1->KeyExists(sKey) && reg1->ReadInteger(sKey)
-			== cIE11)) {
+			true) && !(reg1->KeyExists(sKey) && reg1->ReadInteger(sKey) == cIE11)) {
 			reg1->WriteInteger(sKey, cIE11);
 		}
 	}

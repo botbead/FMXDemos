@@ -1,7 +1,7 @@
 ﻿[]
-Coordinates=70,70,82,33
+Coordinates=206,53,82,33
 ExplicitSubNodes=*
-Visible=True
+Visible=False
 LayerNames=
 
 [Module Settings]
@@ -9,9 +9,8 @@ ModelLayerNames=
 ActiveLayerNames=
 EditingLayerName=
 
-[NanjingTable]
-Coordinates=89,1,79,33
-Visible=False
+[StyleBook1]
+Coordinates=80,77,70,33
 
 [Byou93Connection]
 Coordinates=187,1,108,33
@@ -20,9 +19,13 @@ Coordinates=187,1,108,33
 Coordinates=0,0,70,51
 Visible=True
 
+[NanjingTable]
+Coordinates=150,10,79,33
+Visible=False
+
 [BindSourceDB1]
-Coordinates=89,1,92,69
+Coordinates=150,10,92,69
 
 [BindingsList1]
-Coordinates=219,1,82,33
+Coordinates=59,70,82,33
 

@@ -11,19 +11,6 @@ object Form5: TForm5
   FormFactor.Devices = [Desktop]
   OnCreate = FormCreate
   DesignerMasterStyle = 0
-  object StringGrid1: TStringGrid
-    Align = Client
-    CanFocus = True
-    ClipChildren = True
-    Size.Width = 640.000000000000000000
-    Size.Height = 480.000000000000000000
-    Size.PlatformDefault = False
-    TabOrder = 2
-    RowCount = 300
-    OnApplyStyleLookup = StringGrid1ApplyStyleLookup
-    Viewport.Width = 640.000000000000000000
-    Viewport.Height = 480.000000000000000000
-  end
   object StyleBook1: TStyleBook
     Styles = <
       item
@@ -3940,27 +3927,39 @@ object Form5: TForm5
     Left = 424
     Top = 408
   end
+  object StringGrid1: TStringGrid
+    Align = Client
+    CanFocus = True
+    ClipChildren = True
+    Size.Width = 640.000000000000000000
+    Size.Height = 480.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 6
+    RowCount = 300
+    Viewport.Width = 622.000000000000000000
+    Viewport.Height = 441.000000000000000000
+  end
   object Byou93Connection: TFDConnection
     Params.Strings = (
       'ConnectionDef=BYOU93')
     Connected = True
     LoginPrompt = False
-    Left = 333
-    Top = 195
+    Left = 447
+    Top = 198
   end
   object NanjingTable: TFDQuery
     Active = True
     Connection = Byou93Connection
     SQL.Strings = (
       'SELECT * FROM nanjing')
-    Left = 333
-    Top = 243
+    Left = 447
+    Top = 246
   end
   object BindSourceDB1: TBindSourceDB
     DataSet = NanjingTable
     ScopeMappings = <>
-    Left = 312
-    Top = 344
+    Left = 304
+    Top = 224
   end
   object BindingsList1: TBindingsList
     Methods = <>

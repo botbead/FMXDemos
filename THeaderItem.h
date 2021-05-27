@@ -49,13 +49,13 @@
 // ---------------------------------------------------------------------------
 class TForm5 : public TForm {
 __published: // IDE-managed Components
+	TStyleBook *StyleBook1;
 	TStringGrid *StringGrid1;
 	TFDConnection *Byou93Connection;
 	TFDQuery *NanjingTable;
 	TBindSourceDB *BindSourceDB1;
 	TBindingsList *BindingsList1;
 	TLinkGridToDataSource *LinkGridToDataSourceBindSourceDB1;
-	TStyleBook *StyleBook1;
 
 	void __fastcall StringGrid1ApplyStyleLookup(TObject *Sender);
 	void __fastcall FormCreate(TObject *Sender);

@@ -28,8 +28,7 @@ void __fastcall TForm6::ChenYiZheFrame1ToolBarClick(TObject *Sender) {
 // ---------------------------------------------------------------------------
 
 void __fastcall TForm6::FormCreate(TObject *Sender) {
-	TScrollCalculations *a =
-		new TScrollCalculations(ChenYiZheFrame->VertScrollBox1);
+	TScrollCalculations *a = new TScrollCalculations(ChenYiZheFrame->VertScrollBox1);
 	a->Animation = true;
 	a->AutoShowing = true;
 	a->Averaging = true;

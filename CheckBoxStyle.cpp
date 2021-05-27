@@ -17,12 +17,13 @@ __fastcall TForm8::TForm8(TComponent* Owner) : TForm(Owner) {
 // ---------------------------------------------------------------------------
 void __fastcall TForm8::Button1Click(TObject *Sender) {
 	TButton *btn;
+	String path;
 	if (StyleBook)
 		StyleBook = 0;
 	btn = (TButton*)Sender;
-	TStyleManager::SetStyle(TStyleStreaming::LoadFromFile
-		(L"E:\\RadStudio10_3_3_Rio\\Redist\\styles\\Fmx\\" + btn->Text +
-		L".Style"));
+	path = ExtractFilePath(ParamStr(0));
+	path = Format(_T("%s%s%s"), ARRAYOFCONST((path, btn->Text, _T(".Style"))));
+	TStyleManager::SetStyle(TStyleStreaming::LoadFromFile(path));
 }
 
 // ---------------------------------------------------------------------------

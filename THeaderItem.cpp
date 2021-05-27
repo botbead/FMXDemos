@@ -73,3 +73,15 @@ void __fastcall TForm5::FormCreate(TObject *Sender) {
 	StringGrid1->OnApplyStyleLookup = StringGrid1ApplyStyleLookup;
 }
 // ---------------------------------------------------------------------------
+/*
+ * Operation Steps:
+ * 1. Data Explorer:
+ *    SQLite database->(right click)->Add New Connection:  Specify the Connection name,
+ *    Select the database file path;
+ *    or Refresh the Connection name and Modify;
+ * 2. Drag the BYOU93->Tables->nanjing to the Design Form;
+ * 3. Add a TStringGrid to the Form, (right click)->Quick Edit, Align;
+ * 4. Find Bind Visually... at the bottom of Object Inspector, open LivesBinding Designer;
+ * 5. link(drag and drop) nanjingtable to StringGrid;
+ * 6. select nanjingtable, set Property Active as True.
+ */

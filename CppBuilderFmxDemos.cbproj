@@ -268,11 +268,11 @@
         <FormResources Include="THeaderItem.fmx"/>
         <FormResources Include="SignaturCapture.fmx"/>
         <FormResources Include="MobileAPP1Frame2.fmx"/>
-        <FormResources Include="ByteInteger.fmx"/>
         <FormResources Include="MessageManager.fmx"/>
+        <FormResources Include="CheckBoxStyle.fmx"/>
+        <FormResources Include="ByteInteger.fmx"/>
         <FormResources Include="MainForm.fmx"/>
         <FormResources Include="HeaderAndFooter.fmx"/>
-        <FormResources Include="CheckBoxStyle.fmx"/>
         <BuildConfiguration Include="Release">
             <Key>Cfg_2</Key>
             <CfgParent>Base</CfgParent>
@@ -327,13 +327,13 @@
                         <Overwrite>true</Overwrite>
                     </Platform>
                 </DeployFile>
-                <DeployFile Condition="'$(DynamicRTL)'=='true' And '$(Multithreaded)'!='true'" LocalName="$(BDS)\bin\cc32260.dll" Class="DependencyModule">
-                    <Platform Name="Win32">
+                <DeployFile Condition="'$(DynamicRTL)'=='true' And '$(Multithreaded)'=='true'" LocalName="$(BDS)\bin64\cc64260mt.dll" Class="DependencyModule">
+                    <Platform Name="Win64">
                         <Overwrite>true</Overwrite>
                     </Platform>
                 </DeployFile>
-                <DeployFile Condition="'$(DynamicRTL)'=='true' And '$(Multithreaded)'=='true'" LocalName="$(BDS)\bin64\cc64260mt.dll" Class="DependencyModule">
-                    <Platform Name="Win64">
+                <DeployFile Condition="'$(DynamicRTL)'=='true' And '$(Multithreaded)'!='true'" LocalName="$(BDS)\bin\cc32260.dll" Class="DependencyModule">
+                    <Platform Name="Win32">
                         <Overwrite>true</Overwrite>
                     </Platform>
                 </DeployFile>

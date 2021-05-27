@@ -26,8 +26,8 @@ void __fastcall TForm2::FormClose(TObject *Sender, TCloseAction &Action) {
 	 Using a metaclass allows us to retrieve information about that class without having to refer to a specific instance.
 	 Several VCL functions require a metaclass as a parameter.
 	 */
-	TMessageManager::DefaultManager->Unsubscribe
-		(__classid(TMessage__1<UnicodeString>), subscriber_id);
+	TMessageManager::DefaultManager->Unsubscribe(__classid(TMessage__1<UnicodeString>),
+		subscriber_id);
 	Action = TCloseAction::caFree;
 }
 
@@ -39,8 +39,7 @@ void __fastcall TForm2::FormCreate(TObject * Sender) {
 }
 
 // ---------------------------------------------------------------------------
-void __fastcall TForm2::msg_react(TObject* const sender,
-	TMessageBase* const msg) {
+void __fastcall TForm2::msg_react(TObject* const sender, TMessageBase* const msg) {
 	Label1->Text = ((TMessage__1<UnicodeString> *)msg)->Value;
 }
 // ---------------------------------------------------------------------------
