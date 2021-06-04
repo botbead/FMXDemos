@@ -17,9 +17,9 @@ __fastcall TForm7::TForm7(TComponent* Owner) : TForm(Owner) {
 // ---------------------------------------------------------------------------
 void __fastcall TForm7::SetPermissions() {
 #ifdef _Windows
-	UnicodeString cHomePath = "SOFTWARE";
+	UnicodeString cHomePath = _T("SOFTWARE");
 	UnicodeString cFeatureBrowserEmulation =
-		"Microsoft\\Internet Explorer\\Main\\FeatureControl\\FEATURE_BROWSER_EMULATION\\";
+		_T("Microsoft\\Internet Explorer\\Main\\FeatureControl\\FEATURE_BROWSER_EMULATION\\");
 	int cIE11 = 11001;
 	UnicodeString sKey = ExtractFileName(ParamStr(0));
 	TRegIniFile *Reg = new TRegIniFile(cHomePath);
@@ -38,7 +38,7 @@ void __fastcall TForm7::SetPermissions() {
 
 void __fastcall TForm7::FormCreate(TObject *Sender) {
 	SetPermissions();
-	WebBrowser1->URL = L"https://www.bing.com";
+	WebBrowser1->URL = _T("https://www.bing.com");
 	WebBrowser1->Navigate();
 }
 

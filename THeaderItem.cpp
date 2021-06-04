@@ -1,5 +1,5 @@
 // ---------------------------------------------------------------------------
-
+
 #include <fmx.h>
 #include <System.IOUtils.hpp>
 #pragma hdrstop
@@ -26,7 +26,7 @@ void __fastcall TForm5::StringGrid1ApplyStyleLookup(TObject *Sender) {
 	THeader *h;
 	THeaderItem *i;
 	if (StringGrid1->FindStyleResource("header", h)) {
-		h->Height = 40;
+		h->Height = 45;
 		for (a = 0; a < h->Count - 1; ++a) {
 			/*
 			 TStyledSetting   Dependent TTextSettings   Meaning
@@ -70,6 +70,11 @@ void __fastcall TForm5::FormCreate(TObject *Sender) {
 	 "//byou93.db";
 	 //UniConnection1->Connect();
 	 */
+
+	Byou93Connection->Params->Database = ExtractFilePath(ParamStr(0)) + _T("byou93.db");
+	// set Property Active as True.
+	NanjingTable->Active = true;
+
 	StringGrid1->OnApplyStyleLookup = StringGrid1ApplyStyleLookup;
 }
 // ---------------------------------------------------------------------------
@@ -85,3 +90,4 @@ void __fastcall TForm5::FormCreate(TObject *Sender) {
  * 5. link(drag and drop) nanjingtable to StringGrid;
  * 6. select nanjingtable, set Property Active as True.
  */
+

@@ -35,7 +35,7 @@ void __fastcall TForm2::FormClose(TObject *Sender, TCloseAction &Action) {
 void __fastcall TForm2::FormCreate(TObject * Sender) {
 	subscriber_id = TMessageManager::DefaultManager->SubscribeToMessage
 		(__classid(TMessage__1<UnicodeString>), &(this->msg_react));
-	Caption = L"¶©ÔÄÕß±àºÅ: " + IntToStr((int)subscriber_id);
+	Caption = _T("Subscriber No.: ") + IntToStr((int)subscriber_id);
 }
 
 // ---------------------------------------------------------------------------

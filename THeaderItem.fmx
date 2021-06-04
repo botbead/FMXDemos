@@ -3936,8 +3936,8 @@ object Form5: TForm5
     Size.PlatformDefault = False
     TabOrder = 6
     RowCount = 300
-    Viewport.Width = 622.000000000000000000
-    Viewport.Height = 441.000000000000000000
+    Viewport.Width = 638.000000000000000000
+    Viewport.Height = 457.000000000000000000
   end
   object Byou93Connection: TFDConnection
     Params.Strings = (
@@ -3948,7 +3948,6 @@ object Form5: TForm5
     Top = 198
   end
   object NanjingTable: TFDQuery
-    Active = True
     Connection = Byou93Connection
     SQL.Strings = (
       'SELECT * FROM nanjing')

@@ -13,13 +13,13 @@ USEFORM("MessageSubscriber.cpp", Form2);
 USEFORM("THeaderItem.cpp", Form5);
 USEFORM("SignaturCapture.cpp", Form4);
 USEFORM("MobileAPP1Frame2.cpp", ChenYiZheFrame); /* TFrame: File Type */
-USEFORM("ByteInteger.cpp", Form3);
 USEFORM("MessageManager.cpp", Form1);
+USEFORM("CheckBoxStyle.cpp", Form8);
+USEFORM("ByteInteger.cpp", Form3);
 USEFORM("MainForm.cpp", FormMain);
 USEFORM("HeaderAndFooter.cpp", Form7);
-USEFORM("CheckBoxStyle.cpp", Form8);
-
-// ---------------------------------------------------------------------------
+USEFORM("SlidingStones.cpp", Form9);
+//---------------------------------------------------------------------------
 extern "C" int FMXmain() {
 	try {
 		Application->Initialize();
@@ -34,6 +34,7 @@ extern "C" int FMXmain() {
 		Application->CreateForm(__classid(TForm6), &Form6);
 		Application->CreateForm(__classid(TForm7), &Form7);
 		Application->CreateForm(__classid(TForm8), &Form8);
+		Application->CreateForm(__classid(TForm9), &Form9);
 		Application->Run();
 	}
 	catch (Exception &exception) {
