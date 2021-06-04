@@ -1,5 +1,5 @@
 // ---------------------------------------------------------------------------
-
+
 #include <fmx.h>
 #pragma hdrstop
 
@@ -13,3 +13,4 @@ TSplashFrame *SplashFrame;
 __fastcall TSplashFrame::TSplashFrame(TComponent* Owner) : TFrame(Owner) {
 }
 // ---------------------------------------------------------------------------
+

@@ -1,5 +1,5 @@
 // ---------------------------------------------------------------------------
-
+
 #include <fmx.h>
 #ifdef _WIN32
 #include <tchar.h>
@@ -19,7 +19,8 @@ USEFORM("ByteInteger.cpp", Form3);
 USEFORM("MainForm.cpp", FormMain);
 USEFORM("HeaderAndFooter.cpp", Form7);
 USEFORM("SlidingStones.cpp", Form9);
-//---------------------------------------------------------------------------
+
+// ---------------------------------------------------------------------------
 extern "C" int FMXmain() {
 	try {
 		Application->Initialize();
@@ -51,3 +52,4 @@ extern "C" int FMXmain() {
 	return 0;
 }
 // ---------------------------------------------------------------------------
+

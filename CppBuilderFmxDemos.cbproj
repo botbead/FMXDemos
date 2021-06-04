@@ -271,15 +271,15 @@
         <FormResources Include="MobileAPP1Frame1.fmx"/>
         <FormResources Include="MobileAPP1.fmx"/>
         <FormResources Include="MessageSubscriber.fmx"/>
-        <FormResources Include="THeaderItem.fmx"/>
-        <FormResources Include="SignaturCapture.fmx"/>
         <FormResources Include="MobileAPP1Frame2.fmx"/>
-        <FormResources Include="MessageManager.fmx"/>
+        <FormResources Include="THeaderItem.fmx"/>
+        <FormResources Include="SlidingStones.fmx"/>
+        <FormResources Include="SignaturCapture.fmx"/>
         <FormResources Include="CheckBoxStyle.fmx"/>
         <FormResources Include="ByteInteger.fmx"/>
+        <FormResources Include="MessageManager.fmx"/>
         <FormResources Include="MainForm.fmx"/>
         <FormResources Include="HeaderAndFooter.fmx"/>
-        <FormResources Include="SlidingStones.fmx"/>
         <BuildConfiguration Include="Release">
             <Key>Cfg_2</Key>
             <CfgParent>Base</CfgParent>
@@ -334,13 +334,13 @@
                         <Overwrite>true</Overwrite>
                     </Platform>
                 </DeployFile>
-                <DeployFile Condition="'$(DynamicRTL)'=='true'" LocalName="$(BDS)\Redist\osx64\libcgstl.dylib" Class="DependencyModule">
-                    <Platform Name="OSX64">
+                <DeployFile Condition="'$(DynamicRTL)'=='true' And '$(Multithreaded)'=='true'" LocalName="$(BDS)\bin64\cc64260mt.dll" Class="DependencyModule">
+                    <Platform Name="Win64">
                         <Overwrite>true</Overwrite>
                     </Platform>
                 </DeployFile>
-                <DeployFile Condition="'$(DynamicRTL)'=='true' And '$(Multithreaded)'=='true'" LocalName="$(BDS)\bin64\cc64260mt.dll" Class="DependencyModule">
-                    <Platform Name="Win64">
+                <DeployFile Condition="'$(DynamicRTL)'=='true'" LocalName="$(BDS)\Redist\osx64\libcgstl.dylib" Class="DependencyModule">
+                    <Platform Name="OSX64">
                         <Overwrite>true</Overwrite>
                     </Platform>
                 </DeployFile>

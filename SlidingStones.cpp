@@ -283,7 +283,7 @@ void __fastcall TForm9::Button2Click(TObject *Sender) {
  */
 void __fastcall TForm9::game_done() {
 	bool ok = true;
-    size_t i;
+	size_t i;
 	for (i = 0; i < GridLayout1->ControlsCount; ++i) {
 		if (GridLayout1->Controls->Items[i] == Button1)
 			continue;

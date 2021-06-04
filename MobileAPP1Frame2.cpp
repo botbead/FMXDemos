@@ -1,5 +1,5 @@
 // ---------------------------------------------------------------------------
-
+
 #include <fmx.h>
 #pragma hdrstop
 
@@ -14,3 +14,4 @@ __fastcall TChenYiZheFrame::TChenYiZheFrame(TComponent* Owner) : TFrame(Owner) {
 }
 
 // ---------------------------------------------------------------------------
+

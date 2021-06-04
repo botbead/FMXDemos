@@ -1,5 +1,5 @@
 // ---------------------------------------------------------------------------
-
+
 #include <fmx.h>
 #pragma hdrstop
 
@@ -43,3 +43,4 @@ void __fastcall TForm2::msg_react(TObject* const sender, TMessageBase* const msg
 	Label1->Text = ((TMessage__1<UnicodeString> *)msg)->Value;
 }
 // ---------------------------------------------------------------------------
+

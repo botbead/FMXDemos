@@ -1,5 +1,5 @@
 // ---------------------------------------------------------------------------
-
+
 #include <fmx.h>
 #pragma hdrstop
 
@@ -28,10 +28,10 @@ void __fastcall TForm3::Switch1Switch(TObject *Sender) {
 		fmxObj = Layout3->Children->operator[](i);
 		// testing for an element in the set
 		if (s.Contains(((TLabel*)fmxObj)->Tag)) {
-			((TLabel *)fmxObj)->Text = _T("1");
+			((TLabel*)fmxObj)->Text = _T("1");
 		}
 		else {
-			((TLabel *)fmxObj)->Text = _T("0");
+			((TLabel*)fmxObj)->Text = _T("0");
 		}
 	}
 	Label1->Text = s.ToInt();
@@ -48,7 +48,7 @@ void __fastcall TForm3::Button3Click(TObject *Sender) {
 	}
 	for (int i = 0; i < Layout3->ChildrenCount; ++i) {
 		fmxObj = Layout3->Children->operator[](i);
-		((TLabel *)fmxObj)->Text = _T("0");
+		((TLabel*)fmxObj)->Text = _T("0");
 	}
 	Label1->Text = s.ToInt();
 }
@@ -88,3 +88,4 @@ void __fastcall TForm3::Button1Click(TObject *Sender) {
 	}
 }
 // ---------------------------------------------------------------------------
+
