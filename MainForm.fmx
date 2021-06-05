@@ -91,4 +91,14 @@ object FormMain: TFormMain
     Text = #28369#22359#28216#25103
     OnClick = Button8Click
   end
+  object Button9: TButton
+    Position.X = 496.000000000000000000
+    Position.Y = 72.000000000000000000
+    Size.Width = 113.000000000000000000
+    Size.Height = 33.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 10
+    Text = #30896#25758#29699
+    OnClick = Button9Click
+  end
 end

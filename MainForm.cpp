@@ -11,6 +11,7 @@
 #include "HeaderAndFooter.h"
 #include "CheckBoxStyle.h"
 #include "SlidingStones.h"
+#include "Carom.h"
 // ---------------------------------------------------------------------------
 #pragma package(smart_init)
 #pragma resource "*.fmx"
@@ -58,5 +59,10 @@ void __fastcall TFormMain::Button7Click(TObject *Sender) {
 // ---------------------------------------------------------------------------
 void __fastcall TFormMain::Button8Click(TObject *Sender) {
 	Form9->ShowModal();
+}
+
+// ---------------------------------------------------------------------------
+void __fastcall TFormMain::Button9Click(TObject *Sender) {
+	Form10->ShowModal();
 }
 // ---------------------------------------------------------------------------

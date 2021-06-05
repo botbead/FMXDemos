@@ -10,15 +10,16 @@
 USEFORM("MobileAPP1Frame1.cpp", SplashFrame); /* TFrame: File Type */
 USEFORM("MobileAPP1.cpp", Form6);
 USEFORM("MessageSubscriber.cpp", Form2);
-USEFORM("THeaderItem.cpp", Form5);
-USEFORM("SignaturCapture.cpp", Form4);
 USEFORM("MobileAPP1Frame2.cpp", ChenYiZheFrame); /* TFrame: File Type */
-USEFORM("MessageManager.cpp", Form1);
+USEFORM("THeaderItem.cpp", Form5);
+USEFORM("SlidingStones.cpp", Form9);
+USEFORM("SignaturCapture.cpp", Form4);
 USEFORM("CheckBoxStyle.cpp", Form8);
 USEFORM("ByteInteger.cpp", Form3);
+USEFORM("MessageManager.cpp", Form1);
 USEFORM("MainForm.cpp", FormMain);
 USEFORM("HeaderAndFooter.cpp", Form7);
-USEFORM("SlidingStones.cpp", Form9);
+USEFORM("Carom.cpp", Form10);
 
 // ---------------------------------------------------------------------------
 extern "C" int FMXmain() {
@@ -36,6 +37,7 @@ extern "C" int FMXmain() {
 		Application->CreateForm(__classid(TForm7), &Form7);
 		Application->CreateForm(__classid(TForm8), &Form8);
 		Application->CreateForm(__classid(TForm9), &Form9);
+		Application->CreateForm(__classid(TForm10), &Form10);
 		Application->Run();
 	}
 	catch (Exception &exception) {
