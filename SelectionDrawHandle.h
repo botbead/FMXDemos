@@ -52,6 +52,7 @@ private: // User declarations
 public: // User declarations
 	__fastcall TForm11(TComponent* Owner);
 	__fastcall ~TForm11();
+
 	TMySelection *Selection2;
 };
 

@@ -46,7 +46,7 @@ object Form9: TForm9
     end
   end
   object FloatAnimation1: TFloatAnimation
-    Duration = 0.400000005960464500
+    Duration = 0.400000005960464400
     Interpolation = Back
     OnProcess = FloatAnimation1Process
     OnFinish = FloatAnimation1Finish

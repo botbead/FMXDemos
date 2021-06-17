@@ -66,10 +66,9 @@ void __fastcall TFormMain::Button8Click(TObject *Sender) {
 void __fastcall TFormMain::Button9Click(TObject *Sender) {
 	Form10->ShowModal();
 }
-// ---------------------------------------------------------------------------
-void __fastcall TFormMain::Button10Click(TObject *Sender)
-{
-    Form11->ShowModal();
-}
-//---------------------------------------------------------------------------
 
+// ---------------------------------------------------------------------------
+void __fastcall TFormMain::Button10Click(TObject *Sender) {
+	Form11->ShowModal();
+}
+// ---------------------------------------------------------------------------

@@ -21,7 +21,8 @@ USEFORM("ByteInteger.cpp", Form3);
 USEFORM("MainForm.cpp", FormMain);
 USEFORM("HeaderAndFooter.cpp", Form7);
 USEFORM("SelectionDrawHandle.cpp", Form11);
-//---------------------------------------------------------------------------
+
+// ---------------------------------------------------------------------------
 extern "C" int FMXmain() {
 	try {
 		Application->Initialize();
