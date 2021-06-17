@@ -54,7 +54,7 @@ object FormMain: TFormMain
   object Button5: TButton
     Position.X = 632.000000000000000000
     Position.Y = 16.000000000000000000
-    Size.Width = 113.000000000000000000
+    Size.Width = 129.000000000000000000
     Size.Height = 33.000000000000000000
     Size.PlatformDefault = False
     TabOrder = 3
@@ -100,5 +100,15 @@ object FormMain: TFormMain
     TabOrder = 10
     Text = #30896#25758#29699
     OnClick = Button9Click
+  end
+  object Button10: TButton
+    Position.X = 632.000000000000000000
+    Position.Y = 72.000000000000000000
+    Size.Width = 129.000000000000000000
+    Size.Height = 33.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 12
+    Text = 'SelectionDrawHandle'
+    OnClick = Button10Click
   end
 end

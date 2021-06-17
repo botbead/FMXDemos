@@ -12,6 +12,7 @@
 #include "CheckBoxStyle.h"
 #include "SlidingStones.h"
 #include "Carom.h"
+#include "SelectionDrawHandle.h"
 // ---------------------------------------------------------------------------
 #pragma package(smart_init)
 #pragma resource "*.fmx"
@@ -66,3 +67,9 @@ void __fastcall TFormMain::Button9Click(TObject *Sender) {
 	Form10->ShowModal();
 }
 // ---------------------------------------------------------------------------
+void __fastcall TFormMain::Button10Click(TObject *Sender)
+{
+    Form11->ShowModal();
+}
+//---------------------------------------------------------------------------
+
