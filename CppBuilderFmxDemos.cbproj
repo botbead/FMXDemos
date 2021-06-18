@@ -187,6 +187,12 @@
         <AppDPIAwarenessMode>PerMonitorV2</AppDPIAwarenessMode>
     </PropertyGroup>
     <ItemGroup>
+        <CppCompile Include="ArrowsDraw.cpp">
+            <Form>Form12</Form>
+            <FormType>fmx</FormType>
+            <DependentOn>ArrowsDraw.h</DependentOn>
+            <BuildOrder>16</BuildOrder>
+        </CppCompile>
         <CppCompile Include="ByteInteger.cpp">
             <Form>Form3</Form>
             <FormType>fmx</FormType>
@@ -288,10 +294,11 @@
         <FormResources Include="SlidingStones.fmx"/>
         <FormResources Include="SignaturCapture.fmx"/>
         <FormResources Include="SelectionDrawHandle.fmx"/>
+        <FormResources Include="MessageManager.fmx"/>
         <FormResources Include="CheckBoxStyle.fmx"/>
         <FormResources Include="Carom.fmx"/>
         <FormResources Include="ByteInteger.fmx"/>
-        <FormResources Include="MessageManager.fmx"/>
+        <FormResources Include="ArrowsDraw.fmx"/>
         <FormResources Include="MainForm.fmx"/>
         <FormResources Include="HeaderAndFooter.fmx"/>
         <BuildConfiguration Include="Release">
@@ -338,13 +345,13 @@
                         <Overwrite>true</Overwrite>
                     </Platform>
                 </DeployFile>
-                <DeployFile Condition="'$(DynamicRTL)'=='true'" LocalName="$(BDS)\Redist\osx32\libcgcrtl.dylib" Class="DependencyModule">
-                    <Platform Name="OSX32">
+                <DeployFile Condition="'$(DynamicRTL)'=='true' And '$(Multithreaded)'=='true'" LocalName="$(BDS)\bin\cc32260mt.dll" Class="DependencyModule">
+                    <Platform Name="Win32">
                         <Overwrite>true</Overwrite>
                     </Platform>
                 </DeployFile>
-                <DeployFile Condition="'$(DynamicRTL)'=='true' And '$(Multithreaded)'!='true'" LocalName="$(BDS)\bin\cc32260.dll" Class="DependencyModule">
-                    <Platform Name="Win32">
+                <DeployFile Condition="'$(DynamicRTL)'=='true'" LocalName="$(BDS)\Redist\osx32\libcgcrtl.dylib" Class="DependencyModule">
+                    <Platform Name="OSX32">
                         <Overwrite>true</Overwrite>
                     </Platform>
                 </DeployFile>
@@ -353,7 +360,7 @@
                         <Overwrite>true</Overwrite>
                     </Platform>
                 </DeployFile>
-                <DeployFile Condition="'$(DynamicRTL)'=='true' And '$(Multithreaded)'=='true'" LocalName="$(BDS)\bin\cc32260mt.dll" Class="DependencyModule">
+                <DeployFile Condition="'$(DynamicRTL)'=='true' And '$(Multithreaded)'!='true'" LocalName="$(BDS)\bin\cc32260.dll" Class="DependencyModule">
                     <Platform Name="Win32">
                         <Overwrite>true</Overwrite>
                     </Platform>

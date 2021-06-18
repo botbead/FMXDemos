@@ -13,6 +13,7 @@
 #include "SlidingStones.h"
 #include "Carom.h"
 #include "SelectionDrawHandle.h"
+#include "ArrowsDraw.h"
 // ---------------------------------------------------------------------------
 #pragma package(smart_init)
 #pragma resource "*.fmx"
@@ -70,5 +71,10 @@ void __fastcall TFormMain::Button9Click(TObject *Sender) {
 // ---------------------------------------------------------------------------
 void __fastcall TFormMain::Button10Click(TObject *Sender) {
 	Form11->ShowModal();
+}
+
+// ---------------------------------------------------------------------------
+void __fastcall TFormMain::Button11Click(TObject *Sender) {
+	Form12->ShowModal();
 }
 // ---------------------------------------------------------------------------

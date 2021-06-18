@@ -111,4 +111,14 @@ object FormMain: TFormMain
     Text = 'SelectionDrawHandle'
     OnClick = Button10Click
   end
+  object Button11: TButton
+    Position.X = 24.000000000000000000
+    Position.Y = 128.000000000000000000
+    Size.Width = 153.000000000000000000
+    Size.Height = 33.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 14
+    Text = 'Arrows draw'
+    OnClick = Button11Click
+  end
 end

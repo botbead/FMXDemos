@@ -7,20 +7,21 @@
 #pragma hdrstop
 #include <System.StartUpCopy.hpp>
 // ---------------------------------------------------------------------------
+USEFORM("MobileAPP1Frame2.cpp", ChenYiZheFrame); /* TFrame: File Type */
 USEFORM("MobileAPP1Frame1.cpp", SplashFrame); /* TFrame: File Type */
 USEFORM("MobileAPP1.cpp", Form6);
 USEFORM("MessageSubscriber.cpp", Form2);
-USEFORM("MobileAPP1Frame2.cpp", ChenYiZheFrame); /* TFrame: File Type */
 USEFORM("THeaderItem.cpp", Form5);
 USEFORM("SlidingStones.cpp", Form9);
 USEFORM("SignaturCapture.cpp", Form4);
-USEFORM("MessageManager.cpp", Form1);
+USEFORM("SelectionDrawHandle.cpp", Form11);
 USEFORM("CheckBoxStyle.cpp", Form8);
 USEFORM("Carom.cpp", Form10);
 USEFORM("ByteInteger.cpp", Form3);
+USEFORM("MessageManager.cpp", Form1);
 USEFORM("MainForm.cpp", FormMain);
 USEFORM("HeaderAndFooter.cpp", Form7);
-USEFORM("SelectionDrawHandle.cpp", Form11);
+USEFORM("ArrowsDraw.cpp", Form12);
 
 // ---------------------------------------------------------------------------
 extern "C" int FMXmain() {
@@ -40,6 +41,7 @@ extern "C" int FMXmain() {
 		Application->CreateForm(__classid(TForm9), &Form9);
 		Application->CreateForm(__classid(TForm10), &Form10);
 		Application->CreateForm(__classid(TForm11), &Form11);
+		Application->CreateForm(__classid(TForm12), &Form12);
 		Application->Run();
 	}
 	catch (Exception &exception) {
