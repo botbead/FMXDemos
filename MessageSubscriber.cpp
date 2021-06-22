@@ -23,7 +23,8 @@ void __fastcall TForm2::FormClose(TObject *Sender, TCloseAction &Action) {
 	/*
 	 The __classid keyword allows you to specify a metaclass.
 	 A metaclass is a way of treating a class as an an object.
-	 Using a metaclass allows us to retrieve information about that class without having to refer to a specific instance.
+	 Using a metaclass allows us to retrieve information about that class
+	 without having to refer to a specific instance.
 	 Several VCL functions require a metaclass as a parameter.
 	 */
 	TMessageManager::DefaultManager->Unsubscribe(__classid(TMessage__1<UnicodeString>),

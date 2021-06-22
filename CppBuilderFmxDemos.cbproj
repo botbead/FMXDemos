@@ -262,6 +262,12 @@
             <DependentOn>MobileAPP1Frame2.h</DependentOn>
             <BuildOrder>8</BuildOrder>
         </CppCompile>
+        <CppCompile Include="PathAnimation.cpp">
+            <Form>Form13</Form>
+            <FormType>fmx</FormType>
+            <DependentOn>PathAnimation.h</DependentOn>
+            <BuildOrder>17</BuildOrder>
+        </CppCompile>
         <CppCompile Include="SelectionDrawHandle.cpp">
             <Form>Form11</Form>
             <FormType>fmx</FormType>
@@ -290,15 +296,18 @@
         <FormResources Include="MobileAPP1Frame1.fmx"/>
         <FormResources Include="MobileAPP1.fmx"/>
         <FormResources Include="MessageSubscriber.fmx"/>
+        <FormResources Include="PathAnimation.fmx"/>
+        <FormResources Include="PathAnimation.Moto360.fmx"/>
+        <FormResources Include="PathAnimation.LgXhdpiPh.fmx"/>
         <FormResources Include="THeaderItem.fmx"/>
         <FormResources Include="SlidingStones.fmx"/>
         <FormResources Include="SignaturCapture.fmx"/>
         <FormResources Include="SelectionDrawHandle.fmx"/>
-        <FormResources Include="MessageManager.fmx"/>
         <FormResources Include="CheckBoxStyle.fmx"/>
         <FormResources Include="Carom.fmx"/>
         <FormResources Include="ByteInteger.fmx"/>
         <FormResources Include="ArrowsDraw.fmx"/>
+        <FormResources Include="MessageManager.fmx"/>
         <FormResources Include="MainForm.fmx"/>
         <FormResources Include="HeaderAndFooter.fmx"/>
         <BuildConfiguration Include="Release">
@@ -340,6 +349,11 @@
                         <Overwrite>true</Overwrite>
                     </Platform>
                 </DeployFile>
+                <DeployFile Condition="'$(DynamicRTL)'=='true'" LocalName="$(BDS)\Redist\osx32\libcgcrtl.dylib" Class="DependencyModule">
+                    <Platform Name="OSX32">
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
                 <DeployFile Condition="'$(DynamicRTL)'=='true'" LocalName="$(BDS)\Redist\osx64\libcgstl.dylib" Class="DependencyModule">
                     <Platform Name="OSX64">
                         <Overwrite>true</Overwrite>
@@ -350,18 +364,13 @@
                         <Overwrite>true</Overwrite>
                     </Platform>
                 </DeployFile>
-                <DeployFile Condition="'$(DynamicRTL)'=='true'" LocalName="$(BDS)\Redist\osx32\libcgcrtl.dylib" Class="DependencyModule">
-                    <Platform Name="OSX32">
+                <DeployFile Condition="'$(DynamicRTL)'=='true' And '$(Multithreaded)'!='true'" LocalName="$(BDS)\bin\cc32260.dll" Class="DependencyModule">
+                    <Platform Name="Win32">
                         <Overwrite>true</Overwrite>
                     </Platform>
                 </DeployFile>
                 <DeployFile Condition="'$(DynamicRTL)'=='true' And '$(Multithreaded)'=='true'" LocalName="$(BDS)\bin64\cc64260mt.dll" Class="DependencyModule">
                     <Platform Name="Win64">
-                        <Overwrite>true</Overwrite>
-                    </Platform>
-                </DeployFile>
-                <DeployFile Condition="'$(DynamicRTL)'=='true' And '$(Multithreaded)'!='true'" LocalName="$(BDS)\bin\cc32260.dll" Class="DependencyModule">
-                    <Platform Name="Win32">
                         <Overwrite>true</Overwrite>
                     </Platform>
                 </DeployFile>

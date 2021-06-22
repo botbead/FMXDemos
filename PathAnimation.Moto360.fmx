@@ -1,0 +1,12 @@
+inherited Form13_Moto360: TForm13_Moto360
+  ClientHeight = 218
+  ClientWidth = 240
+  DesignerMasterStyle = 3
+  inherited ToolBar1: TToolBar
+    Size.Width = 240.000000000000000000
+  end
+  inherited ScrollBox1: TScrollBox
+    Viewport.Width = 617.000000000000000000
+    Viewport.Height = 369.000000000000000000
+  end
+end

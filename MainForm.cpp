@@ -14,6 +14,7 @@
 #include "Carom.h"
 #include "SelectionDrawHandle.h"
 #include "ArrowsDraw.h"
+#include "PathAnimation.h"
 // ---------------------------------------------------------------------------
 #pragma package(smart_init)
 #pragma resource "*.fmx"
@@ -76,5 +77,10 @@ void __fastcall TFormMain::Button10Click(TObject *Sender) {
 // ---------------------------------------------------------------------------
 void __fastcall TFormMain::Button11Click(TObject *Sender) {
 	Form12->ShowModal();
+}
+
+// ---------------------------------------------------------------------------
+void __fastcall TFormMain::Button12Click(TObject *Sender) {
+	Form13->ShowModal();
 }
 // ---------------------------------------------------------------------------
